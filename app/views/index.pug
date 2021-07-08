@@ -3,7 +3,6 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
-  <form method="post" action="/">
-  <label>Url git : </label>
-  <input type="text" id="path" name="path" required>
-  </form>
+  form(method='post' action='/')
+    label Url git :
+    input#path(type='text' name='path' required='')
