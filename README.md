@@ -1,2 +1,2 @@
 # nope_appregister
-Register your git project fornope_boardgame
+Register your git project for nope_boardgame
